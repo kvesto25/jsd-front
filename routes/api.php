@@ -17,3 +17,23 @@ use Illuminate\Support\Facades\Route;
 Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
     return $request->user();
 });
+
+
+/*
+ * Country API
+*/
+Route::get('/countries', 'Api\CountryController@index');
+Route::get('/country/{id}', 'Api\CountryController@one');
+
+
+/*
+ * TimeZone API
+*/
+Route::get('/timezone', 'Api\TimezoneController@index');
+Route::get('/timezone/{id}', 'Api\TimezoneController@one');
+
+
+/*
+ *  Register API
+*/
+//Route::post('register')
