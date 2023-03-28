@@ -36,4 +36,5 @@ Route::get('/timezone/{id}', 'Api\TimezoneController@one');
 /*
  *  Register API
 */
-//Route::post('register')
+Route::post('/first-stage', 'Api\RegisterController@firstStage');
+//Route::get('register', 'RegisterController@firstStage');

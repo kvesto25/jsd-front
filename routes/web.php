@@ -19,7 +19,14 @@ Route::get('/', function () {
 
 Route::get('/comment', 'CommentsController@index');
 
-Route::get('/taras', function (){
-    return view('taras');
-});
 
+
+Route::get('/user/register/', function (){
+    return view('user/register');
+});
+Route::get('/user/login/', function (){
+    return view('user/login');
+});
+Route::get('/user/reset/', function (){
+    return view('user/reset');
+});
