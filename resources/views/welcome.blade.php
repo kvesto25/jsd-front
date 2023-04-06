@@ -1,17 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Laravel React</title>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="{{ asset('assets/vite.svg') }}" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Job Search Detective</title>
+    <script type="module" crossorigin src="{{ asset('assets/index-08d2cc6e.js') }}"></script>
+    <link rel="stylesheet" href="{{ asset('assets/index-75c3c895.css') }}">
 </head>
 <body>
-<div id="hello-react"></div>
-<div id="counter"></div>
+<div id="root"></div>
 
-<script src="{{ asset('js/manifest.js') }}"></script>
-<script src="{{ asset('js/vendor.js') }}"></script>
-<script src="{{ asset('js/app.js') }}"></script>
 </body>
 </html>
